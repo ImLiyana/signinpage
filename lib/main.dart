@@ -46,12 +46,12 @@ class _MyAppState extends State<MyApp> {
 
           SizedBox(height: 50,),
 
-          ElevatedButton(onPressed: (){}, child:Text('login',) ),
+          ElevatedButton(onPressed: (){}, child:Text('login',),style: ButtonStyle(backgroundColor: MaterialStatePropertyAll(Colors.red)), ),
 
           SizedBox(height: 30,),
           Text('OR'),
           SizedBox(height: 30,),
-          ElevatedButton(onPressed: (){}, child:Text('Facebook',) ),
+          ElevatedButton(onPressed: (){}, child:Text('Facebook',), style: ButtonStyle(backgroundColor: MaterialStatePropertyAll(Colors.blue))),
 
         ]
         ),
